@@ -38,7 +38,7 @@ class Student
   end
   
   def self.create(name, grade)
-    song = Song.new(name, grade)
+    song = Student.new(name, grade)
     student.save
     student
   end
