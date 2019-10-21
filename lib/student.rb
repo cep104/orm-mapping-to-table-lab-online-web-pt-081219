@@ -1,9 +1,9 @@
 class Student
- attr_accessor :student, :grade, :id
+ attr_accessor :name, :grade, :id
  
-  def initialize(name, album, id=nil)
+  def initialize(name, grade, id=nil)
     @id = id
-    @student = student
+    @name = name
     @grade = grade
   end
   # Remember, you can access your database connection anywhere in this class
